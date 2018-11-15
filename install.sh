@@ -12,7 +12,7 @@ then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-list="ack rbenv"
+list="ack jq rbenv"
 for app in $list
 do
   brew install $app
